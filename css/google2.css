@@ -1,0 +1,155 @@
+body{ 
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+}
+header {
+    color: #666;
+    background-color: #fafafa;
+    height: 130px;
+    border-bottom: 1px solid #ebe5e5;
+}
+.top-section {
+    display: flex;
+
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px;
+    height: 85px;
+    margin-left: 18px;
+}
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 2;
+    margin-right: 10px;
+}
+.search-holder {
+    position: relative;
+}
+.user--img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+ .notification {
+    color: #fff;
+    background-color: #db4437;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+a .settings {
+    width: 16px;
+    height: 16px;;
+}
+
+.search-icon {
+    position: absolute;
+    top:9px;
+    left: 17px;
+  
+}
+.search-icon img {
+    position: absolute;
+    width:25px;
+    left:0;
+}
+.logo {
+    width: 120px;
+    height: 50px;
+    border:0;
+}
+
+.s-input {
+    direction: rtl;
+    margin-left: auto;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: #ccc 1px 1px 10px;
+    width: 600px;
+    height: 40px;
+    font-size: 1rem;
+    padding-right: 20px;
+}
+.bottom-links {
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 145px;
+}
+.bottom-links a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 0.8em;
+    color: #666;
+    padding-bottom: 19px
+}
+
+.space {
+    padding-left: 200px;
+}
+.active {
+    border-bottom: 3px solid #1A73E8;
+    font-weight: bold;
+}
+
+
+/* start the main content */
+
+main {
+    margin: 10px auto;
+    direction: rtl;
+    width: 80%;
+}
+
+main .time-to-display {
+    color: #666;
+    font-size: 0.8em;
+}
+.resolt {
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.resolt h3, .resolt .site-url, p {
+    margin:0;
+    padding:0;
+ 
+}
+.resolt h3 a{
+    margin: 0 0 15px 0;
+    color: #1a0dab;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 18px;
+}
+.site-url {
+    color: green;
+    font-size: 0.8em;
+   
+}
+.resolt p {
+    font-size: 0.8em;
+    line-height: 19px;
+    color: #545454;
+}
+.b-a a{
+    color:  #1a0dab;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+.b-a a:hover{
+    text-decoration: underline;
+}
